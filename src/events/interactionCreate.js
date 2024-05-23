@@ -47,7 +47,6 @@ client.on(Events.InteractionCreate, async interaction => {
 			webhook.send({
 				embeds: [
 					new EmbedBuilder()
-						.setConfig(null, time)
 						.setTimestamp()
 						.setAuthor({
 							iconURL: interaction.user.displayAvatarURL({

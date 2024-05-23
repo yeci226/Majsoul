@@ -10,10 +10,5 @@ Object.defineProperties(EmbedBuilder.prototype, {
 			});
 		},
 		enumerable: false
-	},
-	setConfig: {
-		value: function (color, footer) {
-			return this.setColor(color && color != null ? color : "#272829");
-		}
 	}
 });
