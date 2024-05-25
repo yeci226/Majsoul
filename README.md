@@ -1,1 +1,1 @@
-Discord nhentai bot
+Discord Mahong soul bot
